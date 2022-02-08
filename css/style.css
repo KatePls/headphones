@@ -1,0 +1,60 @@
+:root{
+--title-color:#E7E7E7;
+--additional-text-color: rgba(255, 255, 255, 0.8);
+--additional-text-color-opasity: rgba(255, 255, 255, 0.3);
+--accent-color: #DF3D3A;
+--backgr-color: #191919;
+--main-font: "Open Sans", sans-serif;
+}
+.link{
+text-decoration: none;
+}
+.list{
+list-style: none;
+}
+body{
+    background-color: var(--backgr-color);
+    font-family: var(--main-font);
+}
+
+/*============ COMPONENTS ===================*/
+.nav-text-link{
+font-weight: normal;
+font-size: 16px;
+line-height: 1.19;
+}
+header .nav-text-link{
+color: var(--title-color);  
+}
+footer .nav-text-link{
+color: var(--additional-text-color-opasity);  
+}
+/*===========================================================*/
+.title-hero-text{
+font-weight: 600;
+font-size: 74px;
+line-height: 1;
+letter-spacing: 0.02em;
+text-transform: uppercase;
+color: var(--title-color);
+}
+
+.section-title{
+font-weight: 600;
+font-size: 54px;
+line-height: 1.20;
+letter-spacing: 0.02em;
+text-transform: uppercase;
+color: var(--title-color);
+}
+.hero-text{
+font-weight: normal;
+font-size: 16px;
+line-height: 1.25;
+color: var(--additional-text-color);   
+}
+.text {
+font-size: 20px;
+line-height: 1.45;
+color: var(--additional-text-color);
+}
