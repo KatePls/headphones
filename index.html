@@ -5,44 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bose NC-700 Promo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
-<header>
-    <a href=""><img src="./images/bose-logo.svg" alt="Логотип"></a>
-    <nav>
-        <ul class="list">
-            <li><a href="" class="nav-text-link link">Характеристики</a></li>
-            <li><a href="" class="nav-text-link link">История</a></li>
-            <li><a href="" class="nav-text-link link">Отзывы</a></li>
-            <li><a href="" class="nav-text-link link">Оплата и доставка</a></li>
-          </ul>
+<header class="header">
+    <div class="header-menu">
+        <a class="logo link" href="">
+           <svg class="logo__img" width="100" height="12">
+           <use href="./images/sprite.svg#icon-bose-logo"></use>
+           </svg>
+        </a>
+        <button class="mobile-menu-btn" type="button">
+            <svg class="mobile-menu-img" width="22" height="12">
+            <use href="./images/sprite.svg#icon-menu-hamburger"></use>
+            </svg>
+        </button>
+    </div>
+    <nav class="navigation">
+        <ul class="navigation__list">
+        <li class="navigation__item">
+            <a href="" class="navigation__link link">Характеристики</a>
+        </li>
+        <li class="navigation__item">
+            <a href="" class="navigation__link link">История</a>
+        </li>
+        <li class="navigation__item">
+            <a href="" class="navigation__link link">Отзывы</a>
+        </li>
+        <li class="navigation__item">
+            <a href="" class="navigation__link link">Оплата и доставка</a>
+        </li>
+        </ul>
     </nav>
+    <div>
+    <p class="text">Наушники с шумоподавлением, <br> которые способны на многое</p>
+    <p class="text">До 20 часов <br> воспроизведения</p>
+    <h1 class="primary-title">Наушники Bose NC 700</h1>
+    <button class="button" type="button">Заказать</button>
+    <img src="./images/img1.jpg" alt="Фото наушников">
+    </div>
 </header>
     
-<main>
-<section class="hero">
-   <p class="hero-text">Наушники с шумоподавлением, <br> которые способны на многое</p>
-   <p class="hero-text">До 20 часов <br> воспроизведения</p>
-   <h1 class="title-hero-text">Наушники Bose NC 700</h1>
-   <button type="button">Заказать</button>
-   <img src="./images/img1.jpg" alt="Фото наушников" width="700" height="598">
-</section>
 
-<section>
-  <img src="./images/img2.jpg" alt="Девушка в наушниках" width="590" height="616">  
-  <h2 class="section-title">Премиальный дизайн и комфорт</h2>
+<main>
+<section class="premium-design">
+  <img src="./images/img2.jpg" alt="Девушка в наушниках">  
+  <h2 class="secondary-title">Премиальный дизайн и комфорт</h2>
   <h3>11 уровней шумоподавления</h3>
   <p class="text">С новыми наушниками Bose Noise Cancelling Headphone 700 можно плавно увеличить или уменьшить уровень шумоподавления. Вас слышно отлично и вы слышите собеседника четко, даже в шумной обстановке!</p>
   <h3>Комфорт на максимум</h3>
   <p class="text">Стильная, легкая дужка из нержавеющей стали с мягкими, расположенными под углом чашками наушников для комфортной посадки. Внутренняя сторона выполнена из мягкой гелевой подкладки, которая хорошо прилегает к голове.</p>
 </section>
 
-<section>
-<h2 class="section-title">способны на многое</h2> 
+<section class="advantages">
+<h2 class="secondary-title">способны на многое</h2> 
 <ul>
     <li>Возможность принимать звонки</li>
     <li>Насыщенное и мощное звучание</li>
@@ -53,9 +75,9 @@
 </ul> 
 </section>
 
-<section>
- <h2 class="section-title">Роскошь тишины</h2>  
- <img src="./images/img3.jpg" alt="Наушники на фон природы" width="1440" height="524"> 
+<section class="luxury-silence">
+ <h2 class="secondary-title">Роскошь тишины</h2>  
+ <img src="./images/img3.jpg" alt="Наушники на фон природы" width="280px"> 
    <ul>
     <li>
         <h3>Максимальное наслаждение</h3>
@@ -68,14 +90,14 @@
    </ul>
 </section>
 
-<section>
- <h2 class="section-title">Bose AR</h2> 
+<section class="bose-ar">
+ <h2 class="secondary-title">Bose AR</h2> 
  <h3>Фирменная технология</h3>
  <p>Bose AR — это уникальная аудиоплатформа дополненной реальности, что открывает перед вами новые грани звучания. Она позволяет вам оставаться на связи с реальным миром и одновременно погружаться в виртуальную вселенную.</p>
  <img src="./images/img4.jpg" alt="Девушка в наушниках" width="700" height="586">
 </section>
 
-<section>
+<section  class="">
 <img src="./images/img5.jpg" alt="Наушники в белой расцветке" width="590" height="565">
 <h2 class="section-title">Гарантии</h2>
 <ul>
@@ -90,30 +112,30 @@
 </ul>
 </section>
 
-<section>
+<section class="brand-history">
     <div>
         <h2 class="section-title">история создания бренда</h2>
         <p>История Bose Corporation началась с разочарования. В 1956 году аспирант Массачусетского технологического института Амар Боуз (Amar Bose) приобрёл одну из лучших по тем временам стереосистем для своего дома. 
             После нескольких минут прослушивания аудиозаписи его недоумение сменилось разочарованием. </p>
         <p>С точки зрения Амара звук был настолько плоским и неестественным, что лучше не слушать музыку вовсе, чем слушать её в столь искажённом виде.  </p>    
-        <img src="./images/img6.jpg" alt="" width="700" height="628">
+        <img src="./images/img6.jpg" alt="" width="270">
     </div>
     <div>
-        <img src="./images/img7.jpg" alt="" width="290" height="355">
+        <img src="./images/img7.jpg">
         <p>Разочарование Боуза переросло в твёрдую решимость – создавать аудиотехнику, которая будет передавать звук безупречно точно и естественно.</p>
         <p>Никогда не переставайте мечтать. Всегда мечтайте о лучшем, и думайте о том, как этого достичь.</p>
         <p>Основатель компании Амар Боуз</p>
     </div>
 </section>
 
-<section>
+<section class="reviews">
     <video src=""></video>
     <h2 class="section-title">обзоры</h2>
     <h3 lang="en">Bose Сorporation</h3>
     <p lang="en">Critically acclaimed for their powerful noise cancelling, astonishing sound, and unrivaled voice pickup, Bose Noise Cancelling Headphones 700 help turn any space into the perfect place to listen to music, get work done, or just shut out the world for a few moments and relax. </p>
 </section>
 
-<section>
+<section class="faq">
     <h2 class="section-title">FAQ</h2>
     <ul>
         <li>Как выполнить сопряжение с мобильным устройством?</li>
@@ -123,7 +145,7 @@
     </ul>
 </section>
 
-<section>
+<section class="bose-nc700">
     <h2 class="section-title">bose nc 700</h2>
     <ul>
         <li></li>
@@ -135,15 +157,15 @@
         <li></li>
     </ul>
     <p>14 999 UAH</p>
-    <button type="button">Заказать</button>
+    <button class="button" type="button">Заказать</button>
     <img src="./images/img8.jpg" alt="">
 </section>
 <img src="./images/img9.jpg" alt="">
-<section>
+<section class="">
     <h2 class="section-title">обратная связь</h2>
     <h3>Мы поможем подобрать вам подходящие наушники</h3>
 
-    <button type="button">отправить</button>
+    <button class="button button-additional" type="button">отправить</button>
 </section>
 </main>
     

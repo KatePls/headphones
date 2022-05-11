@@ -1,0 +1,41 @@
+.logo__img{
+fill: var(--title-color);
+}
+
+.header{
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.header-menu{
+display: flex;
+justify-content: space-between;
+}
+.mobile-menu-btn{
+background-color: transparent;
+border: transparent;
+}
+.mobile-menu-img{
+fill: var(--text-color);
+}
+
+@media screen and (max-width:1199px) {
+.navigation {
+display: none;
+}
+}
+
+@media screen and (min-width:768px) {
+.header {
+padding-left: 60px;
+}
+}
+
+@media screen and (min-width:1440px){  
+header .navigation__link {
+    color: var(--title-color);
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.19;
+}
+}

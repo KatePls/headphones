@@ -1,0 +1,25 @@
+.title-hero-text {
+    font-weight: 600;
+    font-size: 74px;
+    line-height: 1;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: var(--title-color);
+}
+
+.section-title {
+   @extend .title;
+}
+
+.hero-text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.25;
+    color: var(--additional-text-color);
+}
+
+.text {
+    font-size: 20px;
+    line-height: 1.45;
+    color: var(--additional-text-color);
+}
