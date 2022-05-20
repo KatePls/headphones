@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ua">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,171 +15,249 @@
 </head>
 <body>
 <header class="header">
+    <div class="container">
     <div class="header-menu">
         <a class="logo link" href="">
-           <svg class="logo__img" width="100" height="12">
-           <use href="./images/sprite.svg#icon-bose-logo"></use>
-           </svg>
+            <svg class="logo__img" width="100" height="12">
+                <use href="./images/sprite.svg#icon-bose-logo"></use>
+            </svg>
         </a>
         <button class="mobile-menu-btn" type="button">
             <svg class="mobile-menu-img" width="22" height="12">
-            <use href="./images/sprite.svg#icon-menu-hamburger"></use>
+                <use href="./images/sprite.svg#icon-menu-hamburger"></use>
             </svg>
         </button>
     </div>
     <nav class="navigation">
         <ul class="navigation__list">
-        <li class="navigation__item">
-            <a href="" class="navigation__link link">Характеристики</a>
-        </li>
-        <li class="navigation__item">
-            <a href="" class="navigation__link link">История</a>
-        </li>
-        <li class="navigation__item">
-            <a href="" class="navigation__link link">Отзывы</a>
-        </li>
-        <li class="navigation__item">
-            <a href="" class="navigation__link link">Оплата и доставка</a>
-        </li>
+            <li class="navigation__item">
+                <a href="" class="navigation__link link">Характеристики</a>
+            </li>
+            <li class="navigation__item">
+                <a href="" class="navigation__link link">Історія</a>
+            </li>
+            <li class="navigation__item">
+                <a href="" class="navigation__link link">Відгуки</a>
+            </li>
+            <li class="navigation__item">
+                <a href="" class="navigation__link link">Оплата і доставка</a>
+            </li>
         </ul>
     </nav>
     <div>
-    <p class="text">Наушники с шумоподавлением, <br> которые способны на многое</p>
-    <p class="text">До 20 часов <br> воспроизведения</p>
-    <h1 class="primary-title">Наушники Bose NC 700</h1>
-    <button class="button" type="button">Заказать</button>
-    <img src="./images/img1.jpg" alt="Фото наушников">
+        <p class="text margin-min">Навушники з шумозаглушенням, <br> які здатні майже на все</p>
+        <p class="text margin-max">До 20 годин <br> відтворення </p>
+        <h1 class="primary-title margin-max">Навушники Bose NC 700</h1>
+        <button class="button margin-max" type="button">Замовити</button>
+        <picture>
+            <source 
+            media="(min-width: 1440px)"
+            srcset="./images/header-img-desktop@1x.webp 1x, ./images/header-img-desktop@2x.webp 2x" 
+            type="image/webp">
+            <source 
+            media="(min-width: 1440px)"
+            srcset="./images/header-img-desktop@1x.jpg 1x, ./images/header-img-desktop@2x.jpg 2x" 
+            type="image/jpg">
+            <source 
+            media="(min-width: 768px)"
+            srcset="./images/header-img-tablet@1x.jpg 1x, ./images/header-img-tablet@2x.jpg 2x" 
+            type="image/jpg">
+            <source 
+            media="(min-width: 320px)" 
+            srcset="./images/header-img-mobile@1x.jpg 1x, ./images/header-img-mobile@2x.jpg 2x"
+            type="image/jpg">
+            <img src="./images/header-img-mobile@1x.jpg" alt="Фото навушників">
+        </picture>
+    </div>
     </div>
 </header>
     
 
 <main>
 <section class="premium-design">
-  <img src="./images/img2.jpg" alt="Девушка в наушниках">  
-  <h2 class="secondary-title">Премиальный дизайн и комфорт</h2>
-  <h3>11 уровней шумоподавления</h3>
-  <p class="text">С новыми наушниками Bose Noise Cancelling Headphone 700 можно плавно увеличить или уменьшить уровень шумоподавления. Вас слышно отлично и вы слышите собеседника четко, даже в шумной обстановке!</p>
-  <h3>Комфорт на максимум</h3>
-  <p class="text">Стильная, легкая дужка из нержавеющей стали с мягкими, расположенными под углом чашками наушников для комфортной посадки. Внутренняя сторона выполнена из мягкой гелевой подкладки, которая хорошо прилегает к голове.</p>
+  <div class="container">
+    <h2 class="secondary-title margin-max">Преміальний дізайн і комфорт</h2>
+    <h3 class="sub-title margin-min">11 рівнів шумозаглушення</h3>
+    <p class="text margin-med">З новими навушниками Bose Noise Cancelling Headphone 700 можна плавно збільшувати або зменьшувати рівень
+    шумозаглушення. Вас відмінно чутно і ви чуєте співрозмовника чітко, навіть у галасливій обстановці!</p>
+    <h3 class="sub-title margin-min">Комфорт на максимумі</h3>
+    <p class="text margin-max">Стильна, легка дужка з нержавіючої сталі з м'якими, розташованими під кутом чашками навушників для
+    комфортної посадки. Внутрішня сторона зроблена з м'якої гелевої підкладки, яка добре прилягає до голови.</p>
+    <picture>
+        <source media="(min-width: 1440px)"
+            srcset="./images/header-img-desktop@1x.webp 1x, ./images/header-img-desktop@2x.webp 2x" type="image/webp">
+        <source media="(min-width: 1440px)"
+            srcset="./images/header-img-desktop@1x.jpg 1x, ./images/header-img-desktop@2x.jpg 2x" type="image/jpg">
+        <source media="(min-width: 768px)"
+            srcset="./images/header-img-tablet@1x.jpg 1x, ./images/header-img-tablet@2x.jpg 2x" type="image/jpg">
+        <source media="(min-width: 320px)"
+            srcset="./images/header-img-mobile@1x.jpg 1x, ./images/header-img-mobile@2x.jpg 2x" type="image/jpg">
+        <img src="./images/header-img-mobile@1x.jpg" alt="Фото навушників">
+    </picture>
+  </div>
 </section>
+<!--<img src="./images/img2.jpg" alt="Дівчина в навушниках">-->
 
 <section class="advantages">
-<h2 class="secondary-title">способны на многое</h2> 
-<ul>
-    <li>Возможность принимать звонки</li>
-    <li>Насыщенное и мощное звучание</li>
-    <li>Опция активного шумоподавления</li>
-    <li>Непревзойденная система микрофонов</li>
-    <li>Поддержка голосовых помощников</li>
-    <li>Аудиоплатформа дополненной реальности Bose AR</li>
-</ul> 
+    <div class="container">
+       <h2 class="secondary-title margin-max">здатні майже на все</h2>
+       <ul>
+           <li class="text margin-min">Можливість приймати дзвінки</li>
+           <li class="text margin-min">Насичене та потужне звучання</li>
+           <li class="text margin-min">Опція активного шумозаглушення</li>
+           <li class="text margin-min">Неперевершена система мікрофонів</li>
+           <li class="text margin-min">Підтримка голосових помічників</li>
+           <li class="text">Аудіоплатформа додаткової реальності Bose AR</li>
+       </ul>
+    </div>
 </section>
 
 <section class="luxury-silence">
- <h2 class="secondary-title">Роскошь тишины</h2>  
- <img src="./images/img3.jpg" alt="Наушники на фон природы" width="280px"> 
-   <ul>
-    <li>
-        <h3>Максимальное наслаждение</h3>
-        <p class="text">Для того чтобы создать комфортную атмосферу  — поднимайте уровень за уровнем от "прозрачного" режима до максимального блокирования звуков. Режим разговора можно активировать в один клик с помощью специальной кнопки.</p>
-    </li>
-    <li>
-        <h3>Хрустальный звук</h3>
-        <p class="text">Система динамиков и фирменный активный эквалайзер способны обеспечить качественный и мощный звук на любом уровне громкости. Вы можете быть уверены в отсутствии искажений и кристальной чистоте высоких и низких частот.</p>
-    </li>
-   </ul>
+    <div class="container">
+    <h2 class="secondary-title margin-max">Розкіш тиші</h2>
+    <img src="./images/img3.jpg" alt="Навушники на фоні природи" width="280px">
+    <ul>
+        <li>
+            <h3 class="sub-title margin-min">Максимальна насолода</h3>
+            <p class="text margin-med">Для того, щоб створити комфортну атмосферу - піднімайте рівень за рівнем від "прозорого"
+            до максимального блокування звуків. Режим розмови можна активувати в один клік за допомогою спеціальної кнопки.</p>
+        </li>
+        <li>
+            <h3 class="sub-title margin-min">Кришталевий звук</h3>
+            <p class="text">Система динаміків та фірмовий активний еквалайзер здатні забезпечити якісний та потужний звук
+            на будь-якому рівні гучності. Ви можете бути впевнені у відсутності спотворень та кришталевій чистоті високих та низьких частот.</p>
+        </li>
+    </ul>
+    </div>
 </section>
 
 <section class="bose-ar">
- <h2 class="secondary-title">Bose AR</h2> 
- <h3>Фирменная технология</h3>
- <p>Bose AR — это уникальная аудиоплатформа дополненной реальности, что открывает перед вами новые грани звучания. Она позволяет вам оставаться на связи с реальным миром и одновременно погружаться в виртуальную вселенную.</p>
- <img src="./images/img4.jpg" alt="Девушка в наушниках" width="700" height="586">
+    <div class="container">
+        <h2 class="secondary-title margin-max">Bose AR</h2>
+        <h3 class="sub-title margin-min">Фірмова технологія</h3>
+        <p class="text margin-max">Bose AR — це унікальна аудіоплатформа доповненої реальності, що відкриває перед вами нові межі звучання. Вона
+    дозволяє вам залишатися на зв'язку з реальним світом і одночасно занурюватися у віртуальний всесвіт.</p>
+        <img src="./images/img4.jpg" alt="Девушка в наушниках" width="700" height="586">
+    </div>
 </section>
 
-<section  class="">
-<img src="./images/img5.jpg" alt="Наушники в белой расцветке" width="590" height="565">
-<h2 class="section-title">Гарантии</h2>
-<ul>
-    <li>
-        <h3>Гарантия возврата денег в течение 90 дней</h3>
-        <p>Если вы не удовлетворены продуктом на 100% вы можете вернуть его обратно и получить полный возврат денег</p>
-    </li>
-    <li>
-        <h3>1 год гарантии</h3>
-        <p>Вне зависимости от страны вашего проживания, если ваши наушники сломались, мы вышлем вам новые</p>
-    </li>
-</ul>
+<section  class="guarantees">
+    <div class="container">
+        <h2 class="primary-title margin-max">Гарантії</h2>
+        <ul>
+            <li>
+                <h3 class="sub-title margin-min">Гарантия возврата денег в течение 90 дней</h3>
+                <p class="text margin-med">Если вы не удовлетворены продуктом на 100% вы можете вернуть его обратно и получить полный возврат денег</p>
+            </li>
+            <li>
+                <h3 class="sub-title margin-max">1 год гарантии</h3>
+                <p class="text margin-max">Вне зависимости от страны вашего проживания, если ваши наушники сломались, мы вышлем вам новые</p>
+            </li>
+        </ul>
+        <img src="./images/img5.jpg" alt="Наушники в белой расцветке" width="590" height="565">
+    </div>
 </section>
 
 <section class="brand-history">
-    <div>
-        <h2 class="section-title">история создания бренда</h2>
-        <p>История Bose Corporation началась с разочарования. В 1956 году аспирант Массачусетского технологического института Амар Боуз (Amar Bose) приобрёл одну из лучших по тем временам стереосистем для своего дома. 
-            После нескольких минут прослушивания аудиозаписи его недоумение сменилось разочарованием. </p>
-        <p>С точки зрения Амара звук был настолько плоским и неестественным, что лучше не слушать музыку вовсе, чем слушать её в столь искажённом виде.  </p>    
-        <img src="./images/img6.jpg" alt="" width="270">
-    </div>
-    <div>
-        <img src="./images/img7.jpg">
-        <p>Разочарование Боуза переросло в твёрдую решимость – создавать аудиотехнику, которая будет передавать звук безупречно точно и естественно.</p>
-        <p>Никогда не переставайте мечтать. Всегда мечтайте о лучшем, и думайте о том, как этого достичь.</p>
-        <p>Основатель компании Амар Боуз</p>
+    <div class="container">
+        <div>
+            <h2 class="secondary-title margin-max">історія створення бренду</h2>
+            <p class="text margin-max">Історія Bose Corporation почалась з розчарування. В 1956 році аспірант Массачусетского технологічного 
+            інституту Амар Боуз (Amar Bose) придбав одну з кращих на ті часи стереосистем для свого будинку.
+            Після кількох хвилин прослуховування аудіозапису його подив змінилося розчаруванням.</p>
+            <img src="./images/img6.jpg" alt="" width="270">
+        </div>
+        <div>
+            <p class="text margin-min">З точки зору Амара звук був настільки плоским і неприроднім, що краще не слухати музику зовсім, ніж слухати її в такому
+            спотвореному вигляді.</p>
+            <p class="text margin-max">Розчарування Боуза переросло у тверду рішучість – створювати аудіотехніку, яка передаватиме звук бездоганно точно та
+            природно.</p>
+            <img src="./images/img7.jpg">
+            <p class="sub-title margin-min">Никогда не переставайте мечтать. Всегда мечтайте о лучшем, и думайте о том, как этого достичь.</p>
+            <p class="text ccolor-additional">Основатель компании Амар Боуз</p>
+        </div>
     </div>
 </section>
 
 <section class="reviews">
-    <video src=""></video>
-    <h2 class="section-title">обзоры</h2>
-    <h3 lang="en">Bose Сorporation</h3>
-    <p lang="en">Critically acclaimed for their powerful noise cancelling, astonishing sound, and unrivaled voice pickup, Bose Noise Cancelling Headphones 700 help turn any space into the perfect place to listen to music, get work done, or just shut out the world for a few moments and relax. </p>
+    <div class="container">
+        <video src=""></video>
+        <h2 class="secondary-title margin-max">обзоры</h2>
+        <h3 class="sub-title" lang="en">Bose Сorporation</h3>
+        <p class="text margin-max" lang="en">Critically acclaimed for their powerful noise cancelling, astonishing sound, and unrivaled voice pickup,
+            Bose Noise Cancelling Headphones 700 help turn any space into the perfect place to listen to music, get work done,
+            or just shut out the world for a few moments and relax. </p>
+    </div>
 </section>
 
 <section class="faq">
-    <h2 class="section-title">FAQ</h2>
-    <ul>
-        <li>Как выполнить сопряжение с мобильным устройством?</li>
-        <li>Каков диапазон беспроводной связи у Bose NC 700?</li>
-        <li>Как сложить наушники Bose NC 700 для хранения?</li>
-        <li>Работает ли гарантия на международном уровне?</li>
-    </ul>
+    <div class="container">
+        <h2 class="secondary-title margin-max">FAQ</h2>
+        <ul>
+            <li class="text">Как выполнить сопряжение с мобильным устройством?</li>
+            <li class="text">Каков диапазон беспроводной связи у Bose NC 700?</li>
+            <li class="text">Как сложить наушники Bose NC 700 для хранения?</li>
+            <li class="text">Работает ли гарантия на международном уровне?</li>
+        </ul>
+    </div>
 </section>
 
 <section class="bose-nc700">
-    <h2 class="section-title">bose nc 700</h2>
-    <ul>
-        <li></li>
-        <li></li>
-    </ul>
-    <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
-    <p>14 999 UAH</p>
-    <button class="button" type="button">Заказать</button>
-    <img src="./images/img8.jpg" alt="">
+    <div class="container">
+        <h2 class="secondary-title margin-med">bose nc 700</h2>
+        <ul>
+            <li></li>
+            <li></li>
+        </ul>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <p>14 999 UAH</p>
+        <button class="button margin-max" type="button">Замовити</button>
+        <img src="./images/img8.jpg" alt="">
+    </div>
 </section>
-<img src="./images/img9.jpg" alt="">
-<section class="">
-    <h2 class="section-title">обратная связь</h2>
-    <h3>Мы поможем подобрать вам подходящие наушники</h3>
 
-    <button class="button button-additional" type="button">отправить</button>
+
+<img src="./images/img9.jpg" alt="">
+
+<section class="feedback">
+    <div class="container">
+        <form action="#" method="post">
+
+        </form>
+        <h2 class="secondary-title margin-max">Зворотній зв'язок</h2>
+        <h3>Ми допоможемо підібрати навушники, що підходять саме вам</h3>
+        <button class="button button-additional" type="button">відправити</button>
+    </div>
 </section>
 </main>
     
 <footer>
-    <nav>
+    <nav class="container">
         <ul class="list">
-            <li><a class="nav-text-link link" href="">Характеристики</a></li>
-            <li><a class="nav-text-link link" href="">История</a></li>
-            <li><a class="nav-text-link link" href="">Отзывы</a></li>
-            <li><a class="nav-text-link link" href="">Оплата и доставка</a></li>
-            <li><a class="nav-text-link link" href="">Адреса магазинов</a></li>
-            <li><a class="nav-text-link link" href="">FAQ</a></li>
-            <li><a class="nav-text-link link" href="tel:+88001111111">8 (800) 111-11-11</a></li>
-          </ul>
+            <li>
+                <a class="text link" href="">Характеристики</a>
+            </li>
+            <li>
+                <a class="text link" href="">Історія</a>
+            </li>
+            <li>
+                <a class="text link" href="">Відгуки</a>
+            </li>
+            <li>
+                <a class="text link" href="">Оплата і доставка</a>
+            </li>
+            <li>
+                <a class="text link" href="">Адреси магазинів</a>
+            </li>
+            <li>
+                <a class="text link" href="">FAQ</a>
+            </li>
+        </ul>
+        <a class="text link" href="tel:+88001111111">8 (800) 111-11-11</a>
     </nav>
 </footer>
 </body>

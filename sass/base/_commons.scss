@@ -1,5 +1,5 @@
 body {
-    background-color: var(--backgr-color);
+    background-color: var(--bg-color);
     font-family: var(--main-font);
 }
 
@@ -29,4 +29,14 @@ img {
 
 .list {
     list-style: none;
+}
+
+.margin-min{
+    margin-bottom: 16px;
+}
+.margin-med {
+    margin-bottom: 24px;
+}
+.margin-max {
+    margin-bottom: 32px;
 }

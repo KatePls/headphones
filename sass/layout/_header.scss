@@ -3,13 +3,13 @@ fill: var(--title-color);
 }
 
 .header{
-padding-left: 20px;
-padding-right: 20px;
+padding-top: 30px;
 }
 
 .header-menu{
 display: flex;
 justify-content: space-between;
+margin-bottom: 32px;
 }
 .mobile-menu-btn{
 background-color: transparent;
