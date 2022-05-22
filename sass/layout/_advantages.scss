@@ -1,0 +1,14 @@
+.advantages-item{
+    display: flex;
+
+    &::before {
+    content: "";
+    display: block;
+    background-color: var(--accent-color);
+    border-radius: 50%;
+    height: 13px;
+    min-width: 13px;
+    margin:5px 24px 0 0;
+    padding: 0;
+    }
+}

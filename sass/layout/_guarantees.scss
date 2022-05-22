@@ -1,9 +1,5 @@
-.color-additional{
-    color: rgba(255, 255, 255, 0.4);
-}
-
-/*.::before {
-    content: "&#34";
+.guarantees-item::before {
+    content: "";
     display: block;
     background-color: var(--accent-color);
     border-radius: 50%;
@@ -12,4 +8,4 @@
     margin: 0 0 24px 0;
     padding: 0;
     box-sizing: content-box;
-}*/
+}
