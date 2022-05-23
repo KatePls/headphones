@@ -1,15 +1,87 @@
 .color-additional{
-    color: rgba(255, 255, 255, 0.4);
+    color: var(--text-color-opasity04);
+}
+.quote{
+margin-bottom: 24px;
 }
 
-/*.::before {
-    content: "&#34";
-    display: block;
-    background-color: var(--accent-color);
-    border-radius: 50%;
-    height: 13px;
-    width: 13px;
-    margin: 0 0 24px 0;
-    padding: 0;
-    box-sizing: content-box;
-}*/
+@media screen and (min-width:768px) {
+.brand-history .container{
+    padding-left: 60px;
+}
+
+.brand-history .secondary-title{
+    max-width: 180px;
+}
+
+.brand-history .text {
+    max-width: 265px;
+}
+
+.brand-history-one-part{
+    position: relative;
+}
+.brand-history-one-part .text:last-of-type{
+margin-bottom: 32px;
+}
+.brand-history-img-one{
+    position: absolute;
+    top: 0px;
+    right: 0;
+    margin: 0;
+}
+
+.brand-history-other-part {
+    position: relative;
+    padding-left: 355px;
+}
+.brand-history-additional{
+    margin-bottom: 108px;
+}
+
+.brand-history-img-second{
+    position: absolute;
+    top: 88px;
+    left: 0;
+    margin: 0;
+}
+.quote {
+    margin-bottom: 52px;
+}
+}
+
+@media screen and (min-width:1440px) {
+    .brand-history .container {
+        padding-left: 190px;
+    }
+
+    .brand-history .secondary-title {
+        max-width: 330px;
+    }
+
+    .brand-history .text {
+        max-width: 400px;
+    }
+
+    .brand-history-one-part .text:last-of-type {
+        margin-bottom: 30px;
+    }
+
+    .brand-history-other-part {
+        padding-left: 550px;
+    }
+
+    .margin-additional {
+        margin-bottom: 120px;
+    }
+
+    .brand-history .sub-title {
+        max-width: 390px;
+    }
+    .quote {
+        margin-bottom: 52px;
+    }
+    .brand-history-img-second {
+     top: 150px;
+    }
+}

@@ -1,0 +1,35 @@
+@media screen and (min-width:768px) {
+    .luxury-silence .secondary-title {
+        text-align: end;
+        padding-right: 60px;
+    }
+
+    .luxury-silence-list {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .luxury-silence .text:first-of-type {
+        margin-bottom: 0;
+    }
+
+    .luxury-silence-item:first-child {
+        margin-right: 60px;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .luxury-silence .secondary-title {
+        text-align: end;
+        padding-right: 170px;
+    }
+
+    .luxury-silence-list {
+        padding-left: 190px;
+        padding-right: 190px;
+    }
+
+    .luxury-silence-item:first-child {
+        margin-right: 40px;
+    }
+}

@@ -12,62 +12,62 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
 </head>
 <body>
 <header class="header">
     <div class="container">
-    <div class="header-menu">
-        <a class="logo link" href="">
-            <svg class="logo__img" width="100" height="12">
-                <use href="./images/sprite.svg#icon-bose-logo"></use>
-            </svg>
-        </a>
-        <button class="mobile-menu-btn" type="button">
-            <svg class="mobile-menu-img" width="22" height="12">
-                <use href="./images/sprite.svg#icon-menu-hamburger"></use>
-            </svg>
-        </button>
-    </div>
-    <nav class="navigation">
-        <ul class="navigation__list">
-            <li class="navigation__item">
-                <a href="" class="navigation__link link">Характеристики</a>
-            </li>
-            <li class="navigation__item">
-                <a href="" class="navigation__link link">Історія</a>
-            </li>
-            <li class="navigation__item">
-                <a href="" class="navigation__link link">Відгуки</a>
-            </li>
-            <li class="navigation__item">
-                <a href="" class="navigation__link link">Оплата і доставка</a>
-            </li>
-        </ul>
-    </nav>
-    <div>
-        <p class="text margin-min">Навушники з шумозаглушенням, <br> які здатні майже на все</p>
-        <p class="text margin-max">До 20 годин <br> відтворення </p>
-        <h1 class="primary-title margin-max">Навушники Bose NC 700</h1>
-        <button class="button margin-max" type="button">Замовити</button>
-        <picture>
-            <source 
-            media="(min-width: 1440px)"
-            srcset="./images/header-img-desktop@1x.webp 1x, ./images/header-img-desktop@2x.webp 2x" 
-            type="image/webp">
-            <source 
-            media="(min-width: 1440px)"
-            srcset="./images/header-img-desktop@1x.jpg 1x, ./images/header-img-desktop@2x.jpg 2x" 
-            type="image/jpg">
-            <source 
-            media="(min-width: 768px)"
-            srcset="./images/header-img-tablet@1x.jpg 1x, ./images/header-img-tablet@2x.jpg 2x" 
-            type="image/jpg">
-            <source 
-            media="(min-width: 320px)" 
-            srcset="./images/header-img-mobile@1x.jpg 1x, ./images/header-img-mobile@2x.jpg 2x"
-            type="image/jpg">
+        <div class="header-navigation">
+            <div class="header-menu">
+                <a class="logo link" href="">
+                    <svg class="logo__img" width="100" height="12">
+                        <use href="./images/sprite.svg#icon-bose-logo"></use>
+                    </svg>
+                </a>
+                <button class="mobile-menu-btn" type="button">
+                    <svg class="mobile-menu-img" width="22" height="12">
+                        <use href="./images/sprite.svg#icon-menu-hamburger"></use>
+                    </svg>
+                </button>
+            </div>
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__item">
+                        <a href="" class="navigation__link link">Характеристики</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="" class="navigation__link link">Історія</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="" class="navigation__link link">Відгуки</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="" class="navigation__link link">Оплата і доставка</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    <div class="display-position">
+        <div>
+            <p class="header-text text margin-min">Навушники з шумозаглушенням, <br> які здатні майже на все</p>
+            <p class="header-text text margin-max">До 20 годин <br> відтворення </p>
+            <h1 class="primary-title margin-max">Навушники <br> Bose NC 700</h1>
+            <button class="button margin-max" type="button">Замовити</button>
+        </div>
+        <div>
+           <picture>
+            <source media="(min-width: 1440px)"
+                srcset="./images/header-img-desktop@1x.webp 1x, ./images/header-img-desktop@2x.webp 2x" type="image/webp">
+            <source media="(min-width: 1440px)"
+                srcset="./images/header-img-desktop@1x.jpg 1x, ./images/header-img-desktop@2x.jpg 2x" type="image/jpg">
+            <source media="(min-width: 768px)"
+                srcset="./images/header-img-tablet@1x.jpg 1x, ./images/header-img-tablet@2x.jpg 2x" type="image/jpg">
+            <source media="(min-width: 320px)"
+                srcset="./images/header-img-mobile@1x.jpg 1x, ./images/header-img-mobile@2x.jpg 2x" type="image/jpg">
             <img src="./images/header-img-mobile@1x.jpg" alt="Фото навушників">
-        </picture>
+           </picture>
+        </div>
     </div>
     </div>
 </header>
@@ -76,24 +76,33 @@
 <main>
 <section class="premium-design">
   <div class="container">
-    <h2 class="secondary-title margin-max">Преміальний дізайн і комфорт</h2>
-    <h3 class="sub-title margin-min">11 рівнів шумозаглушення</h3>
-    <p class="text margin-med">З новими навушниками Bose Noise Cancelling Headphone 700 можна плавно збільшувати або зменьшувати рівень
-    шумозаглушення. Вас відмінно чутно і ви чуєте співрозмовника чітко, навіть у галасливій обстановці!</p>
-    <h3 class="sub-title margin-min">Комфорт на максимумі</h3>
-    <p class="text margin-max">Стильна, легка дужка з нержавіючої сталі з м'якими, розташованими під кутом чашками навушників для
-    комфортної посадки. Внутрішня сторона зроблена з м'якої гелевої підкладки, яка добре прилягає до голови.</p>
-    <picture>
-        <source media="(min-width: 1440px)"
-            srcset="./images/section2-img-desktop@1x.webp 1x, ./images/section2-img-desktop@2x.webp 2x" type="image/webp">
-        <source media="(min-width: 1440px)"
-            srcset="./images/section2-img-desktop@1x.jpg 1x, ./images/section2-img-desktop@2x.jpg 2x" type="image/jpg">
-        <source media="(min-width: 768px)"
-            srcset="./images/section2-img-tablet@1x.jpg 1x, ./images/section2-img-tablet@2x.jpg 2x" type="image/jpg">
-        <source media="(min-width: 320px)"
-            srcset="./images/section2-img-mobile@1x.jpg 1x, ./images/section2-img-mobile@2x.jpg 2x" type="image/jpg">
-        <img src="./images/section2-img-mobile@1x.jpg" alt="Фото навушників">
-    </picture>
+      <div class="display-position-revers">
+            <div class="margin-left">
+                <h2 class="secondary-title margin-max">Преміальний дізайн і комфорт</h2>
+                <h3 class="sub-title margin-min">11 рівнів шумозаглушення</h3>
+                <p class="text margin-med">З новими навушниками Bose Noise Cancelling Headphone 700 можна плавно збільшувати або
+                    зменьшувати рівень
+                    шумозаглушення. Вас відмінно чутно і ви чуєте співрозмовника чітко, навіть у галасливій обстановці!</p>
+                <h3 class="sub-title margin-min">Комфорт на максимумі</h3>
+                <p class="text margin-max">Стильна, легка дужка з нержавіючої сталі з м'якими, розташованими під кутом чашками
+                    навушників для
+                    комфортної посадки. Внутрішня сторона зроблена з м'якої гелевої підкладки, яка добре прилягає до голови.</p>
+            </div>
+            <div>
+                <picture>
+                    <source media="(min-width: 1440px)"
+                        srcset="./images/section2-img-desktop@1x.webp 1x, ./images/section2-img-desktop@2x.webp 2x"
+                        type="image/webp">
+                    <source media="(min-width: 1440px)"
+                        srcset="./images/section2-img-desktop@1x.jpg 1x, ./images/section2-img-desktop@2x.jpg 2x" type="image/jpg">
+                    <source media="(min-width: 768px)"
+                        srcset="./images/section2-img-tablet@1x.jpg 1x, ./images/section2-img-tablet@2x.jpg 2x" type="image/jpg">
+                    <source media="(min-width: 320px)"
+                        srcset="./images/section2-img-mobile@1x.jpg 1x, ./images/section2-img-mobile@2x.jpg 2x" type="image/jpg">
+                    <img src="./images/section2-img-mobile@1x.jpg" alt="Фото навушників">
+                </picture>
+            </div>
+      </div>
   </div>
 </section>
 
@@ -129,13 +138,13 @@
             type="image/jpg" width="280">
         <img src="./images/section3-img-mobile@1x.jpg" alt="Навушники на фоні природи" class="margin-max">
     </picture>
-    <ul>
-        <li>
+    <ul class="display-position luxury-silence-list">
+        <li class="luxury-silence-item">
             <h3 class="sub-title margin-min">Максимальна насолода</h3>
             <p class="text margin-med">Для того, щоб створити комфортну атмосферу - піднімайте рівень за рівнем від "прозорого"
             до максимального блокування звуків. Режим розмови можна активувати в один клік за допомогою спеціальної кнопки.</p>
         </li>
-        <li>
+        <li class="luxury-silence-item">
             <h3 class="sub-title margin-min">Кришталевий звук</h3>
             <p class="text">Система динаміків та фірмовий активний еквалайзер здатні забезпечити якісний та потужний звук
             на будь-якому рівні гучності. Ви можете бути впевнені у відсутності спотворень та кришталевій чистоті високих та низьких частот.</p>
@@ -146,87 +155,93 @@
 
 <section class="bose-ar">
     <div class="container">
-        <h2 class="secondary-title margin-max">Bose AR</h2>
-        <h3 class="sub-title margin-min">Фірмова технологія</h3>
-        <p class="text margin-max">Bose AR — це унікальна аудіоплатформа доповненої реальності, що відкриває перед вами нові межі звучання. Вона
-        дозволяє вам залишатися на зв'язку з реальним світом і одночасно занурюватися у віртуальний всесвіт.</p>
-    <picture>
-        <source media="(min-width: 1440px)"
-            srcset="./images/section4-img-desktop@1x.webp 1x, ./images/section4-img-desktop@2x.webp 2x" 
-            type="image/webp">
-        <source media="(min-width: 1440px)"
-            srcset="./images/section4-img-desktop@1x.jpg 1x, ./images/section4-img-desktop@2x.jpg 2x" 
-            type="image/jpg">
-        <source media="(min-width: 768px)"
-            srcset="./images/section4-img-tablet@1x.jpg 1x, ./images/section4-img-tablet@2x.jpg 2x" 
-            type="image/jpg">
-        <source
-            srcset="./images/section4-img-mobile@1x.jpg 1x, ./images/section4-img-mobile@2x.jpg 2x" 
-            type="image/jpg" width="280">
-        <img src="./images/section4-img-mobile@1x.jpg" alt="дівчина в навушниках">
-    </picture>
+        <div class="display-position">
+            <div class="bose-ar-description">
+            <h2 class="secondary-title margin-max">Bose AR</h2>
+            <h3 class="sub-title margin-min">Фірмова технологія</h3>
+            <p class="text margin-max">Bose AR — це унікальна аудіоплатформа доповненої реальності, що відкриває перед вами нові
+                межі звучання. Вона
+                дозволяє вам залишатися на зв'язку з реальним світом і одночасно занурюватися у віртуальний всесвіт.</p>
+            </div>
+            <div>
+            <picture>
+                <source media="(min-width: 1440px)"
+                    srcset="./images/section4-img-desktop@1x.webp 1x, ./images/section4-img-desktop@2x.webp 2x" type="image/webp">
+                <source media="(min-width: 1440px)"
+                    srcset="./images/section4-img-desktop@1x.jpg 1x, ./images/section4-img-desktop@2x.jpg 2x" type="image/jpg">
+                <source media="(min-width: 768px)"
+                    srcset="./images/section4-img-tablet@1x.jpg 1x, ./images/section4-img-tablet@2x.jpg 2x" type="image/jpg">
+                <source srcset="./images/section4-img-mobile@1x.jpg 1x, ./images/section4-img-mobile@2x.jpg 2x" type="image/jpg"
+                    width="280">
+                <img src="./images/section4-img-mobile@1x.jpg" alt="дівчина в навушниках">
+            </picture>
+            </div>
+        </div>
     </div>
 </section>
 
 <section  class="guarantees">
     <div class="container">
-        <h2 class="primary-title margin-max">Гарантії</h2>
-        <ul>
-            <li class="guarantees-item">
-                <h3 class="sub-title margin-min">Гарантия возврата денег в течение 90 дней</h3>
-                <p class="text margin-med">Если вы не удовлетворены продуктом на 100% вы можете вернуть его обратно и получить полный возврат денег</p>
-            </li>
-            <li class="guarantees-item">
-                <h3 class="sub-title margin-min">1 год гарантии</h3>
-                <p class="text margin-max">Вне зависимости от страны вашего проживания, если ваши наушники сломались, мы вышлем вам новые</p>
-            </li>
-        </ul>
-        <picture>
-            <source media="(min-width: 1440px)"
-                srcset="./images/section5-img-desktop@1x.webp 1x, ./images/section5-img-desktop@2x.webp 2x" 
-                type="image/webp">
-            <source media="(min-width: 1440px)"
-                srcset="./images/section5-img-desktop@1x.jpg 1x, ./images/section5-img-desktop@2x.jpg 2x" 
-                type="image/jpg">
-            <source media="(min-width: 768px)"
-                srcset="./images/section5-img-tablet@1x.jpg 1x, ./images/section5-img-tablet@2x.jpg 2x" 
-                type="image/jpg">
-            <source srcset="./images/section5-img-mobile@1x.jpg 1x, ./images/section5-img-mobile@2x.jpg 2x" 
-                type="image/jpg"
-                width="280">
-            <img src="./images/section5-img-mobile@1x.jpg" alt="білі навушники">
-        </picture>
+        <div class="display-position-revers">
+            <div class="margin-left">
+                <h2 class="secondary-title margin-max">Гарантії</h2>
+                <ul>
+                    <li class="guarantees-item">
+                        <h3 class="sub-title margin-min">Гарантия возврата денег в течение 90 дней</h3>
+                        <p class="text margin-med">Если вы не удовлетворены продуктом на 100% вы можете вернуть его обратно и получить
+                            полный возврат денег</p>
+                    </li>
+                    <li class="guarantees-item">
+                        <h3 class="sub-title margin-min">1 год гарантии</h3>
+                        <p class="text margin-max">Вне зависимости от страны вашего проживания, если ваши наушники сломались, мы вышлем
+                            вам новые</p>
+                    </li>
+                </ul>
+            </div>
+            <div>
+            <picture>
+                <source media="(min-width: 1440px)"
+                    srcset="./images/section5-img1-desktop@1x.webp 1x, ./images/section5-img1-desktop@2x.webp 2x" type="image/webp">
+                <source media="(min-width: 1440px)"
+                    srcset="./images/section5-img1-desktop@1x.jpg 1x, ./images/section5-img1-desktop@2x.jpg 2x" type="image/jpg">
+                <source media="(min-width: 768px)"
+                    srcset="./images/section5-img1-tablet@1x.jpg 1x, ./images/section5-img1-tablet@2x.jpg 2x" type="image/jpg">
+                <source srcset="./images/section5-img2-mobile@1x.jpg 1x, ./images/section5-img2-mobile@2x.jpg 2x" type="image/jpg"
+                    width="280">
+                <img src="./images/section5-img2-mobile@1x.jpg" alt="білі навушники">
+            </picture>
+            </div>
+        </div>
     </div>
 </section>
 
-<section class="brand-history">
+<section class="brand-history" id="brand-history">
     <div class="container">
         <div>
+            <div class="brand-history-one-part">
             <h2 class="secondary-title margin-max">історія створення бренду</h2>
-            <p class="text margin-max">Історія Bose Corporation почалась з розчарування. В 1956 році аспірант Массачусетского технологічного 
-            інституту Амар Боуз (Amar Bose) придбав одну з кращих на ті часи стереосистем для свого будинку.
-            Після кількох хвилин прослуховування аудіозапису його подив змінилося розчаруванням.</p>
+            <p class="text margin-max">Історія Bose Corporation почалась з розчарування. В 1956 році аспірант Массачусетского технологічного інституту Амар Боуз (Amar Bose) придбав одну з кращих на ті часи стереосистем для свого будинку.
+                Після кількох хвилин прослуховування аудіозапису його подив змінилося розчаруванням.
+            </p>
             <picture>
                 <source media="(min-width: 1440px)"
-                    srcset="./images/section6-img1-desktop@1x.webp 1x, ./images/section6-img1-desktop@2x.webp 2x" 
-                    type="image/webp">
+                    srcset="./images/section6-img1-desktop@1x.webp 1x, ./images/section6-img1-desktop@2x.webp 2x" type="image/webp">
                 <source media="(min-width: 1440px)"
-                    srcset="./images/section6-img1-desktop@1x.jpg 1x, ./images/section6-img1-desktop@2x.jpg 2x" 
-                    type="image/jpg">
+                    srcset="./images/section6-img1-desktop@1x.jpg 1x, ./images/section6-img1-desktop@2x.jpg 2x" type="image/jpg">
                 <source media="(min-width: 768px)"
-                    srcset="./images/section6-img1-tablet@1x.jpg 1x, ./images/section6-img1-tablet@2x.jpg 2x" 
-                    type="image/jpg">
-                <source srcset="./images/section6-img1-mobile@1x.jpg 1x, ./images/section6-img1-mobile@2x.jpg 2x" 
-                    type="image/jpg"
+                    srcset="./images/section6-img1-tablet@1x.jpg 1x, ./images/section6-img1-tablet@2x.jpg 2x" type="image/jpg">
+                <source srcset="./images/section6-img1-mobile@1x.jpg 1x, ./images/section6-img1-mobile@2x.jpg 2x" type="image/jpg"
                     width="280">
-                <img src="./images/section5-img1-mobile@1x.jpg" alt="створення навушників" class="margin-max">
-            </picture>
-        </div>
-        <div>
-            <p class="text margin-min">З точки зору Амара звук був настільки плоским і неприроднім, що краще не слухати музику зовсім, ніж слухати її в такому
-            спотвореному вигляді.</p>
-            <p class="text margin-max">Розчарування Боуза переросло у тверду рішучість – створювати аудіотехніку, яка передаватиме звук бездоганно точно та
-            природно.</p>
+                <img src="./images/section5-img1-mobile@1x.jpg" alt="створення навушників" class="brand-history-img-one margin-max">
+            </picture> 
+            <p class="text margin-min">
+                З точки зору Амара звук був настільки плоским і неприроднім, що краще не слухати музику зовсім, ніж слухати її в такому спотвореному вигляді.
+            </p>
+            </div>
+            <div class="brand-history-other-part">
+            <p class="text margin-max brand-history-additional">
+                Розчарування Боуза переросло у тверду рішучість – створювати аудіотехніку, яка передаватиме звук бездоганно точно та природно.
+            </p>
             <picture>
                 <source media="(min-width: 1440px)"
                     srcset="./images/section6-img2-desktop@1x.webp 1x, ./images/section6-img2-desktop@2x.webp 2x" type="image/webp">
@@ -236,13 +251,14 @@
                     srcset="./images/section6-img2-tablet@1x.jpg 1x, ./images/section6-img2-tablet@2x.jpg 2x" type="image/jpg">
                 <source srcset="./images/section6-img2-mobile@1x.jpg 1x, ./images/section6-img2-mobile@2x.jpg 2x" type="image/jpg"
                     width="280">
-                <img src="./images/section6-img2-mobile@1x.jpg" alt="Засновник бренду" class="margin-max">
+                <img src="./images/section6-img2-mobile@1x.jpg" alt="Засновник бренду" class="brand-history-img-second margin-max">
             </picture>
-            <svg class="margin-med" width="34" height="25">
+            <svg class="quote" width="34" height="25">
                 <use href="./images/sprite.svg#icon-quote"></use>
             </svg>
             <p class="sub-title margin-min">Никогда не переставайте мечтать. Всегда мечтайте о лучшем, и думайте о том, как этого достичь.</p>
-            <p class="text ccolor-additional">Основатель компании Амар Боуз</p>
+            <p class="text color-additional">Основатель компании Амар Боуз</p>
+        </div>
         </div>
     </div>
 </section>
@@ -256,31 +272,32 @@
         <h3 class="sub-title margin-min color-accent" lang="en">Bose Сorporation</h3>
         <p class="text margin-max" lang="en">Critically acclaimed for their powerful noise cancelling, astonishing sound, and unrivaled voice pickup,
             Bose Noise Cancelling Headphones 700 help turn any space into the perfect place to listen to music, get work done,
-            or just shut out the world for a few moments and relax. </p>
+            or just shut out the world for a few moments and relax. 
+        </p>
     </div>
 </section>
 
-<section class="faq">
+<section class="faq" id="faq">
     <div class="container">
         <h2 class="secondary-title margin-max">FAQ</h2>
         <ol class="faq-list list">
             <li class="faq-item">
-                <p class="text text-item">Как выполнить сопряжение с мобильным устройством?</p>
+                <p class="text text-item">Як поєднати з мобільним пристроєм?</p>
             </li>
             <li class="faq-item">
-                <p class="text text-item">Каков диапазон беспроводной связи у Bose NC 700?</p>
+                <p class="text text-item">Який діапазон бездротового зв'язку у Bose NC 700?</p>
             </li>
             <li class="faq-item">
-                <p class="text text-item">Как сложить наушники Bose NC 700 для хранения?</p>
+                <p class="text text-item">Як скласти навушники Bose NC 700 для зберігання?</p>
             </li>
             <li class="faq-item">
-                <p class="text text-item">Работает ли гарантия на международном уровне?</p>
+                <p class="text text-item">Чи працює гарантія на міжнародному рівні?</p>
             </li>
         </ol>
     </div>
 </section>
 
-<section class="bose-nc700">
+<section class="order-bose">
     <div class="container">
         <h2 class="secondary-title margin-max">bose nc 700</h2>
         <picture>
@@ -318,45 +335,46 @@
         srcset="./images/section8-img-tablet@1x.jpg 1x, ./images/section8-img-tablet@2x.jpg 2x" type="image/jpg">
     <source srcset="./images/section8-img-mobile@1x.jpg 1x, ./images/section8-img-mobile@2x.jpg 2x" type="image/jpg"
         width="280">
-    <img src="./images/section8-img1-mobile@1x.jpg" alt="жінка працює в навушниках">
+    <img src="./images/section8-img1-mobile@1x.jpg" alt="жінка працює в навушниках" class="picture">
 </picture>
 </section>
 
-<section class="feedback">
+<section class="feedback" id="feedback">
     <div class="container">
-        <form action="#" method="post">
-
-        </form>
         <h2 class="secondary-title margin-max">Зворотній зв'язок</h2>
         <h3 class="">Ми допоможемо підібрати навушники, що підходять саме вам</h3>
+        <form action="#" method="post">
+        <input type="text">
+        <input type="text">
         <button class="button button-additional" type="button">відправити</button>
+        </form>
     </div>
 </section>
 </main>
     
-<footer>
-    <nav class="container">
-        <ul class="list">
-            <li>
-                <a class="text link" href="">Характеристики</a>
+<footer class="container">
+    <nav class="footer-nav">
+        <ul class="footer-list list">
+            <li class="footer-item">
+                <a class="text footer-link link" href="#feedback">Характеристики</a>
             </li>
-            <li>
-                <a class="text link" href="">Історія</a>
+            <li class="footer-item">
+                <a class="text footer-link link" href="#brand-history">Історія</a>
             </li>
-            <li>
-                <a class="text link" href="">Відгуки</a>
+            <li class="footer-item">
+                <a class="text footer-link link" href="">Відгуки</a>
             </li>
-            <li>
-                <a class="text link" href="">Оплата і доставка</a>
+            <li class="footer-item">
+                <a class="text footer-link link" href="">Оплата і доставка</a>
             </li>
-            <li>
-                <a class="text link" href="">Адреси магазинів</a>
+            <li class="footer-item">
+                <a class="text footer-link link" href="">Адреси магазинів</a>
             </li>
-            <li>
-                <a class="text link" href="">FAQ</a>
+            <li class="footer-item">
+                <a class="text footer-link link" href="#faq">FAQ</a>
             </li>
         </ul>
-        <a class="text link" href="tel:+88001111111">8 (800) 111-11-11</a>
+        <a class="footer-phone text link" href="tel:+88001111111">8 (800) 111-11-11</a>
     </nav>
 </footer>
 </body>

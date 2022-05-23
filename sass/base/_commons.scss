@@ -41,3 +41,34 @@ img {
 .margin-max {
     margin-bottom: 32px;
 }
+
+@media screen and (min-width:768px){
+.display-position {
+    display: flex;
+}
+.display-position-revers {
+   @extend .display-position;
+   flex-direction: row-reverse;
+}
+.margin-left{
+   margin-left: 60px;
+}
+}
+
+@media screen and (min-width:1440px){
+    .margin-min {
+        margin-bottom: 20px;
+    }
+    
+    .margin-med {
+        margin-bottom: 40px;
+    }
+    
+    .margin-max {
+        margin-bottom: 50px;
+    }
+
+    .margin-left {
+    margin-left: 150px;
+    }
+}

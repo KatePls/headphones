@@ -9,3 +9,39 @@
     padding: 0;
     box-sizing: content-box;
 }
+
+@media screen and (min-width:768px) {
+    .guarantees .display-position-revers{
+    justify-content: start;
+    }
+
+    .guarantees-item:first-child{
+    margin-bottom: 32px;
+    }
+
+    .guarantees .sub-title {
+    max-width: 250px;
+    }
+
+    .guarantees .text {
+        max-width: 295px;
+    }
+
+    .guarantees .text:last-of-type {
+    margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width:768px) {
+   .guarantees-item:first-child {
+        margin-bottom: 50px;
+    }
+
+    .guarantees .sub-title {
+        max-width: 370px;
+    }
+
+    .guarantees .text {
+        max-width: 400px;
+    }
+}
