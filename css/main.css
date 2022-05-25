@@ -135,18 +135,6 @@ img {
 
 @media screen and (min-width: 768px) {
   .button {
-    width: 280px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .button {
-    width: 294px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .button {
     width: 294px;
   }
 }
@@ -619,6 +607,12 @@ img {
     padding-left: 190px;
     padding-right: 190px;
   }
+  .faq-item {
+    margin-bottom: 50px;
+  }
+  .faq-item::before {
+    margin-right: 32px;
+  }
 }
 
 .text-order-bose {
@@ -663,10 +657,29 @@ img {
   color: var(--accent-color);
 }
 
+@media screen and (min-width: 1440px) {
+  .order-bose {
+    position: relative;
+    padding-left: 190px;
+  }
+  .order-bose-picture {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .picture {
     margin: 0 auto;
   }
+}
+
+.footer {
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px 52px 20px;
 }
 
 .footer-link {
@@ -693,27 +706,34 @@ img {
 }
 
 @media screen and (min-width: 768px) {
+  .footer {
+    max-width: 768px;
+    padding: 0 60px 50px 60px;
+  }
   .footer-list {
-    margin-left: -100px;
+    margin-left: -70px;
     margin-bottom: 0px;
   }
   .footer-item {
-    margin-left: 100px;
-    flex-basis: calc((100% - 200px) / 2);
+    margin-left: 70px;
+    flex-basis: calc((100% - 140px) / 2);
   }
   .footer-nav {
     display: flex;
     align-items: flex-end;
-    justify-content: space-between;
   }
   .footer-phone {
-    display: inline;
+    margin-left: 160px;
     min-width: 130px;
     text-align: end;
   }
 }
 
 @media screen and (min-width: 1440px) {
+  .footer {
+    max-width: 1440px;
+    padding: 0 80px 74px 80px;
+  }
   .footer-list {
     margin: 0;
     flex-wrap: nowrap;
@@ -721,11 +741,20 @@ img {
   .footer-item {
     margin: 0;
   }
+  .footer-item:nth-child(2n) {
+    min-width: 180px;
+  }
   .footer-item:not(:last-child) {
     margin-right: 50px;
   }
-  .footer-item:nth-child(n+4) {
-    min-width: 175px;
+  .footer-phone {
+    margin-left: 10px;
+    min-width: 180px;
+    text-align: right;
+  }
+  .footer-nav {
+    display: flex;
+    align-items: center;
   }
 }
 /*# sourceMappingURL=main.css.map */

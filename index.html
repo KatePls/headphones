@@ -33,16 +33,16 @@
             <nav class="navigation">
                 <ul class="navigation__list">
                     <li class="navigation__item">
-                        <a href="" class="navigation__link link">Характеристики</a>
+                        <a href="#" class="navigation__link link">Характеристики</a>
                     </li>
                     <li class="navigation__item">
-                        <a href="" class="navigation__link link">Історія</a>
+                        <a href="#brand-history" class="navigation__link link">Історія</a>
                     </li>
                     <li class="navigation__item">
-                        <a href="" class="navigation__link link">Відгуки</a>
+                        <a href="#reviews" class="navigation__link link">Відгуки</a>
                     </li>
                     <li class="navigation__item">
-                        <a href="" class="navigation__link link">Оплата і доставка</a>
+                        <a href="#" class="navigation__link link">Оплата і доставка</a>
                     </li>
                 </ul>
             </nav>
@@ -65,7 +65,7 @@
                 srcset="./images/header-img-tablet@1x.jpg 1x, ./images/header-img-tablet@2x.jpg 2x" type="image/jpg">
             <source media="(min-width: 320px)"
                 srcset="./images/header-img-mobile@1x.jpg 1x, ./images/header-img-mobile@2x.jpg 2x" type="image/jpg">
-            <img src="./images/header-img-mobile@1x.jpg" alt="Фото навушників">
+            <img src="./images/header-img-mobile@1x.jpg" alt="Фото навушників" class="margin-left">
            </picture>
         </div>
     </div>
@@ -187,14 +187,16 @@
                 <h2 class="secondary-title margin-max">Гарантії</h2>
                 <ul>
                     <li class="guarantees-item">
-                        <h3 class="sub-title margin-min">Гарантия возврата денег в течение 90 дней</h3>
-                        <p class="text margin-med">Если вы не удовлетворены продуктом на 100% вы можете вернуть его обратно и получить
-                            полный возврат денег</p>
+                        <h3 class="sub-title margin-min">Гарантиія повернення грошей протягом 90 днів</h3>
+                        <p class="text margin-med">
+                            Якщо ви не задоволені продуктом на 100% ви можете повернути його і отримати назад гроші
+                        </p>
                     </li>
                     <li class="guarantees-item">
-                        <h3 class="sub-title margin-min">1 год гарантии</h3>
-                        <p class="text margin-max">Вне зависимости от страны вашего проживания, если ваши наушники сломались, мы вышлем
-                            вам новые</p>
+                        <h3 class="sub-title margin-min">1 рік гарантії</h3>
+                        <p class="text margin-max">
+                            Незалежно від країни, де ви мешкаєте, якщо ваші навушники зламалися, ми надішлемо вам нові
+                        </p>
                     </li>
                 </ul>
             </div>
@@ -256,8 +258,8 @@
             <svg class="quote" width="34" height="25">
                 <use href="./images/sprite.svg#icon-quote"></use>
             </svg>
-            <p class="sub-title margin-min">Никогда не переставайте мечтать. Всегда мечтайте о лучшем, и думайте о том, как этого достичь.</p>
-            <p class="text color-additional">Основатель компании Амар Боуз</p>
+            <p class="sub-title margin-min">Ніколи не переставайте мріяти. Завжди мрійте про краще, і думайте про те, як цього досягти.</p>
+            <p class="text color-additional">Засновник компанії Амар Боуз</p>
         </div>
         </div>
     </div>
@@ -266,30 +268,41 @@
 <section class="reviews">
     <div class="container">
         <h2 class="secondary-title margin-max">обзоры</h2>
-        <iframe class="reviews-video margin-max"  src="https://www.youtube.com/embed/iq5rCmWRo1k" title="YouTube video player"
-            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-            <h3 class="sub-title margin-min color-accent" lang="en">Bose Сorporation</h3>
-            <p class="text margin-max" lang="en">
-                Critically acclaimed for their powerful noise cancelling, astonishing sound, and unrivaled voice pickup, Bose Noise Cancelling Headphones 700 help turn any space into the perfect place to listen to music, get work done, or just shut out the world for a few moments and relax. 
-            </p>
-
-        <iframe class="reviews-video margin-max" src="https://www.youtube.com/embed/BUyLpf-u97Y" title="YouTube video player"
-            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-            <h3 class="sub-title margin-min color-accent" lang="en">Bose Сorporation</h3>
-            <p class="text margin-max" lang="en">
-                Bose Noise Cancelling Headphones 700 deliver everything you expect — and things you never imagined possible. The perfect
-                balance of quiet, comfort, and sound.
-            </p>
-
-        <iframe class="reviews-video margin-max" src="https://www.youtube.com/embed/NgtznBDFRUo" title="YouTube video player"
-            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-            <h3 class="sub-title margin-min color-accent" lang="en">Bose Сorporation</h3>
-            <p class="text margin-max" lang="en">
-            Real stories of people tuning in or out to feel peace, find escape, and for self-care
-            </p>
+        <div class="wrapper">
+            <ul>
+                <li>
+                    <iframe class="reviews-video margin-max" src="https://www.youtube.com/embed/iq5rCmWRo1k" title="YouTube video player"
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <h3 class="sub-title margin-min color-accent" lang="en">Bose Сorporation</h3>
+                    <p class="text margin-max" lang="en">
+                        Critically acclaimed for their powerful noise cancelling, astonishing sound, and unrivaled voice pickup, Bose Noise
+                        Cancelling Headphones 700 help turn any space into the perfect place to listen to music, get work done, or just shut
+                        out the world for a few moments and relax.
+                    </p>
+                </li>
+                <li>
+                    <iframe class="reviews-video margin-max" src="https://www.youtube.com/embed/BUyLpf-u97Y" title="YouTube video player"
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <h3 class="sub-title margin-min color-accent" lang="en">Bose Сorporation</h3>
+                    <p class="text margin-max" lang="en">
+                        Bose Noise Cancelling Headphones 700 deliver everything you expect — and things you never imagined possible. The
+                        perfect
+                        balance of quiet, comfort, and sound.
+                    </p>
+                </li>
+                <li>
+                    <iframe class="reviews-video margin-max" src="https://www.youtube.com/embed/NgtznBDFRUo" title="YouTube video player"
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <h3 class="sub-title margin-min color-accent" lang="en">Bose Сorporation</h3>
+                    <p class="text margin-max" lang="en">
+                        Real stories of people tuning in or out to feel peace, find escape, and for self-care
+                    </p>
+                </li>
+            </ul>
+        </div>
     </div>
 </section>
 
@@ -325,7 +338,7 @@
                 srcset="./images/section7-img1-tablet@1x.jpg 1x, ./images/section7-img1-tablet@2x.jpg 2x" type="image/jpg">
             <source srcset="./images/section7-img1-mobile@1x.jpg 1x, ./images/section7-img1-mobile@2x.jpg 2x" type="image/jpg"
                 width="280">
-            <img class="margin-max" src="./images/section7-img1-mobile@1x.jpg" alt="Навушники чорні">
+            <img class="order-bose-picture margin-max" src="./images/section7-img1-mobile@1x.jpg" alt="Навушники чорні">
         </picture>
         <ul>
             <li></li>
@@ -374,23 +387,23 @@
 </section>
 </main>
     
-<footer class="container">
+<footer class="footer">
     <nav class="footer-nav">
         <ul class="footer-list list">
             <li class="footer-item">
                 <a class="text footer-link link" href="#feedback">Характеристики</a>
             </li>
             <li class="footer-item">
+                <a class="text footer-link link" href="#">Оплата і доставка</a>
+            </li>
+            <li class="footer-item">
                 <a class="text footer-link link" href="#brand-history">Історія</a>
             </li>
             <li class="footer-item">
-                <a class="text footer-link link" href="">Відгуки</a>
+                <a class="text footer-link link" href="#">Адреси магазинів</a>
             </li>
             <li class="footer-item">
-                <a class="text footer-link link" href="">Оплата і доставка</a>
-            </li>
-            <li class="footer-item">
-                <a class="text footer-link link" href="">Адреси магазинів</a>
+                <a class="text footer-link link" href="#reviews">Відгуки</a>
             </li>
             <li class="footer-item">
                 <a class="text footer-link link" href="#faq">FAQ</a>

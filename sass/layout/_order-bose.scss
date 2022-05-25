@@ -39,3 +39,17 @@ margin-bottom: 51px;
     text-transform: uppercase;
     color: var(--accent-color);
 }
+
+@media screen and (min-width:1440px) {
+.order-bose{
+    position: relative;
+    padding-left: 190px;
+
+}
+.order-bose-picture{
+position: absolute;
+top: 0;
+right: 0;
+}
+
+}

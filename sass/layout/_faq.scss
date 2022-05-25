@@ -57,8 +57,16 @@ align-items: center;
     }
 }
 @media screen and (min-width:1440px) {
-    .faq .container {
+.faq .container {
     padding-left: 190px;
     padding-right: 190px;
     }
+
+.faq-item {
+    margin-bottom: 50px;
+    
+    &::before {
+    margin-right: 32px;
+    }
+}
 }
