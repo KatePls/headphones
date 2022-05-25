@@ -2,12 +2,24 @@
     color: var(--accent-color);
 }
 
+.reviews-video{
+width: 280px;
+}
+
 @media screen and (min-width:768px) {
 .reviews .container{
 padding-left: 60px;
 padding-right: 60px;
 }
+.reviews-video {
+    width: 561px;
+    height: 315px;
+}
 }
 
 @media screen and (min-width:1440px) {
+    .reviews-video {
+    width: 1402px;
+    height: 788px;
+    }
 }
